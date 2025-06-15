@@ -61,10 +61,15 @@ Replace YOUR_API_KEY in the JS file with your actual API key
 ![image](https://github.com/user-attachments/assets/22300c9e-69cb-4981-87ff-b090df86dbd3)
 
 ✅ Completed As Part Of
+
 💼 Internship: Web Development Internship
+
 🏢 Organization: Prodigy Infotech
+
 📌 Task: Task-05 – Weather App
+
 🔗 Live Project: https://weatherwbsite.vercel.app/
+
 
 📫 Contact
 Gursimran Singh Saini
