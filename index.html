@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Companion</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="light">
+  <div class="app-container">
+
+    <header>
+      <h1>☁️ Weather Companion</h1>
+      <div class="header-controls">
+        <div class="toggle-buttons">
+          <button id="unitToggle" title="Toggle °C/°F">°F</button>
+          <button id="themeToggle" title="Toggle Theme">🌙</button>
+        </div>
+        
+      </div>
+    </header>
+
+    <section class="search-section">
+      <input id="searchInput" type="text" placeholder="Enter city..." autocomplete="off" aria-label="Search city" />
+      <button onclick="getWeather()" title="Search">🔍</button>
+      <ul id="suggestions" class="autocomplete-list"></ul>
+    </section>
+
+    <section class="weather-display">
+      <div class="clock" id="clock"></div>
+      <h2 id="cityName">City Name</h2>
+      <p id="temperature">--</p>
+      <p id="weatherCondition">--</p>
+      <p id="uvIndex">--</p>
+      <p id="advice">--</p>
+      <p id="umbrellaReminder">--</p>
+    </section>
+
+    <section class="forecast">
+      <h3>📅 5-Day Forecast</h3>
+      <div id="forecastContainer" class="forecast-grid"></div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
