@@ -56,6 +56,8 @@ Get a free API key from OpenWeatherMap
 Replace YOUR_API_KEY in the JS file with your actual API key
 
 📁 Project Structure
+
+
 ![image](https://github.com/user-attachments/assets/22300c9e-69cb-4981-87ff-b090df86dbd3)
 
 ✅ Completed As Part Of
